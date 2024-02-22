@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+.menu,
+.quiz,
+.last {
+  width: 500px;
+  height: 400px;
+  background-color: #c5fff8;
+  border: solid 2px #1b1a55;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.option {
+  background-color: rgb(146 34 236);
+  width: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.option1 {
+  background-color: rgb(221, 180, 255);
+  width: auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.submit {
+  transition: width 2s, height 2s;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit:hover {
+  width: 200px;
+  height: 170;
 }
